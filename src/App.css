@@ -1,0 +1,179 @@
+:root {
+  --off-white: #fafafa;
+}
+.nav {
+  background-color: #2e95cd;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 80px;
+  z-index: 1000;
+  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+}
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.nav-logo:hover {
+  cursor: pointer;
+}
+
+.nav .nav-content {
+  max-width: 900px;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.nav-item {
+  display: inline;
+  margin-left: 2rem;
+  color: #333;
+}
+
+.nav-item:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.section {
+  position: static;
+  background: #fafafa;
+  padding-top: 10px;
+}
+
+.section-content {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom:10px;
+  overflow: hidden;
+}
+
+.section-content-blue {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  padding-top: 10px;
+  overflow: hidden;
+  background: #2e95cd;
+}
+
+.halfsectionblue {
+  position: relative;
+  width: 50%;
+  background: #2e95cd;
+  display: inline-block;
+  height: 490px;
+  float: right;
+
+  
+}
+.halfsection{
+  position: relative;
+  width: 50%;
+  height: 490px;
+  background: #fafafa;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+}
+
+.section-content .front_text_box {
+  position: absolute;
+  border-radius: 10px;
+  top: 35%;
+  width: 300px;
+  height: 110px;
+  background: #2e95cd;
+  font: 'impact';
+}
+.section-content .front_text_box .front_text {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  font-size: 64px;
+  color: #fafafa;
+  font-family: "Impact", Charcoal, sans-serif;
+}
+
+.section-content .front_text_box .front_text_lower {
+  position: absolute;
+  top: 70%;
+  left: 2%;
+  font-size: 19px;
+  color: #fafafa;
+  font-family: "Impact", Charcoal, sans-serif;
+}
+.sectionTitle {
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.sectionTitleWhite {
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: black;
+  font-weight: bold;
+}
+
+#headshot{
+  width: 400px;
+}
+
+.seperator{
+  height: 20px;
+}
+
+.seperator2{
+  height: 100px;
+}
+
+#webTitle{
+  cursor: pointer;
+  user-select: none;
+  color: #fafafa;
+  font-family: "Impact", Charcoal, sans-serif;
+  font-size: 30px;
+}
+.text{
+  width: 500;
+  padding-left: 4px;
+  padding-top: 2px;
+  text-align: center;
+}
+#linkedin{
+  float: left;
+  width: 30%;
+}
+#email {
+  cursor: pointer;
+  float: right;
+  width: 30%;
+}
+
+#i {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#blurb{
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
